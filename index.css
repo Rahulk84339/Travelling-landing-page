@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
 .navigation {
     height: 70px !important;
     /* background-color: rgba(13, 110, 253, 0.7) !important; */
@@ -68,8 +72,6 @@
     transform: translateY(50px) !important;
 }
 
-.card-title {}
-
 .destinations {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -82,6 +84,18 @@
 
 .package-cards {
     width: 350px !important;
+}
+
+
+/* css for corousel */
+
+.carousel-inner {
+    height: 500px;
+}
+
+.carousel-item img {
+    background-size: cover;
+    background-position: center;
 }
 
 
